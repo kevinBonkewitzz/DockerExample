@@ -62,7 +62,7 @@ stages:
                   inputs:
                     azureSubscription: 'Espada-Trial(481b941b-291b-4716-8610-6999d82e0fc1)'
                     appType: 'webApp'
-                    appName: 'docker-example-api'
+                    appName: 'docker-example'
                     resourceGroupName: 'DockerExample'
                     package: '$(Pipeline.Workspace)/**/DockerExample.zip'
                     deploymentMethod: 'auto'
