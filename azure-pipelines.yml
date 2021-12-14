@@ -63,7 +63,7 @@ stages:
                     azureSubscription: 'Espada-Trial(481b941b-291b-4716-8610-6999d82e0fc1)'
                     appType: 'webApp'
                     appName: 'docker-example-api'
-                    deployToSlotOrASE: true
+                    deployToSlotOrASE: false
                     resourceGroupName: 'DockerExample'
                     slotName: 'development'
                     package: '$(Pipeline.Workspace)/**/DockerExample.zip'
