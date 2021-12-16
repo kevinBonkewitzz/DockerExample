@@ -56,6 +56,10 @@ namespace DockerExample
             {
                 endpoints.MapControllers();
             });
+
+            IronPdf.Installation.LinuxAndDockerDependenciesAutoConfig = false;
+            IronPdf.Installation.ChromeGpuMode = IronPdf.Engines.Chrome.ChromeGpuModes.Disabled;
+            IronPdf.Installation.Initialize();
         }
     }
 }

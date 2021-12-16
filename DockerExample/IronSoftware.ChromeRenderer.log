@@ -1,0 +1,686 @@
+06:24:15 (0x785c09000): ~ Chrome renderer v2021.12.0.4391~
+06:24:16 (0x785c09000): Initializing Cef proxy controller
+06:24:16 (0x785c09000): CefProxy()
+06:24:16 (0x785c09000): CefInterface()
+06:24:16 (0x785c09000): Assigning Cef proxy controller events...
+06:24:16 (0x785c09000): Assigning Cef proxy controller stream provider...
+06:24:16 (0x785c09000): Successful first-time initialization of Chrome renderer
+06:24:16 (0x785c09000): Initializing Cef proxy controller
+06:24:16 (0x785c09000): Using subprocess path '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess'
+06:24:16 (0x785c09000): Using framework path '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+06:24:16 (0x785c09000): Using resources path '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+06:24:16 (0x785c09000): Process os_name: 'macos'
+06:24:16 (0x785c09000): gpu_mode: '0'
+06:24:16 (0x785c09000): Launching Main process ' --browser-subprocess-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+06:24:16 (0x785c09000): Process os_name: 'macos'
+06:24:16 (0x785c09000): gpu_mode: '0'
+06:24:16 (0x785c09000): Launching child process '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --field-trial-handle=1718379636,14401149398880279281,1953648616397299426,131072 --disable-features=PaintHolding --no-sandbox --headless --framework-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/kevinbonkewitzz/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+06:24:16 (0x785c09000): Cef context initialized
+06:24:16 (0x785c09000): Registering custom scheme for rendering raw html
+06:24:16 (0x785c09000): Cef initialization succeeded
+06:24:16 (0x785c09000): Generating PDF from HTML '<!DOCTYPE html>
+                <html class='p-report'>
+                    <head>
+                        <style>
+                            html.p-report {
+                                font-family: 'Arial'
+                            }
+
+                            div {
+                                font-size: 13px;
+                            }
+
+                            .grid {
+                                display: grid;
+                            }
+
+                            .grid-cols-12 {
+                                grid-template-columns: repeat(12, minmax(0, 1fr));
+                            }
+
+                            .col-span-1 {
+                                grid-column: span 1 / span 1;
+                            }
+
+                            .col-span-2 {
+                                grid-column: span 2 / span 2;
+                            }
+
+                            .col-span-10 {
+                                grid-column: span 10 / span 10;
+                            }
+
+                            .col-span-11 {
+                                grid-column: span 11 / span 11;
+                            }
+
+                            .w-7cm {
+                                width: 11cm;
+                            }
+
+                            .w-full {
+                                width: 100%;
+                            }
+
+                            .w-1/2 {
+                                width: 50%;
+                            }
+
+                            .w-2/12 {
+                                width: 16.666667%;
+                            }
+
+                            .w-3/4 {
+                                width: 75%;
+                            }
+
+                            .w-1/4 {
+                                width: 25%;
+                            }
+
+                            .w-1cm {
+                                width: 2.5cm !important;
+                            }
+                            .py-2 {
+                                padding-top: 0.5rem;
+                                padding-bottom: 0.5rem;
+                            }
+
+                            table {
+                                text-indent: 0;
+                                border-collapse: collapse;
+                                font-size: 13px;
+                            }
+    
+                            .text-right {
+                                text-align: right;
+                            }
+
+                            .relative {
+                                position: relative;
+                            }
+
+                            .absolute {
+                               position: absolute;
+                            }
+
+                            .mb-8 {
+                                margin-bottom: 2rem;
+                            }
+
+                            .text-sm {
+                                font-size: 0.875rem;
+                            }
+                            
+                            .break-word {
+                                word-break: break-word;
+                            }
+
+                            .p-0 {
+                                padding: 0px;
+                            }
+
+                            .addresees {
+                                font-size: 13px;
+                            }
+
+                            .mb-4 {
+                                margin-bottom: 1rem;
+                            }
+
+                            .float-left {
+                                float: left;
+                            }
+
+                            .float-right {
+                                float: right;
+                            }
+
+                            .clear-both {
+                                clear: both;
+                            }
+                            
+                            .p-1 {
+                                padding: 0.25rem;
+                            }
+
+                            .px-1 {
+                                padding-left: 0.25rem;
+                                padding-right: 0.25rem;
+                            }
+
+                            .px-2 {
+                                padding-left: 0.5rem;
+                                padding-right: 0.5rem;
+                            }
+
+                            .z-0 {
+                                z-index: 0;
+                            }
+
+                            .z-10 {
+                                z-index: 10;
+                            }
+
+                            .block {
+                                display: block;
+                            }
+
+                            .hidden {
+                                display: none;
+                            }
+
+                            .text-vertical {
+                                left: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 100%;
+                                transform: rotate(-90deg);
+
+                                font-size: 15px;
+                            }
+
+                            .m-auto {
+                                margin: auto;
+                            }
+
+                            .grid {
+                                display: grid;
+                            }
+
+                            .items-center {
+                                align-items: center;
+                            }
+
+                            .flex {
+                                display: flex;
+                            }
+
+                            .items-center { 
+                                align-items: center;
+                            }
+
+                            .table {
+                                display: table;
+                            }
+
+                            .table-cell {
+                                display: table-cell;
+                            }
+
+                            .-rotate-90 {
+                                transform: rotate(270deg);
+                            }
+
+                            .block {
+                                display: block;
+                            }
+                            .mb-1 {
+                                margin-bottom: 0.25rem;
+                            }
+
+                            .leading-snug {
+                                line-height: 1.375;
+                            }
+
+                            .text-left {
+                                text-align: left;
+                            }
+
+                            .text-center {
+                                text-align: center;
+                            }
+
+                            tr, .avoid-break {
+                                page-break-inside: avoid;
+                            }
+
+                            .border-t-1 {
+                                border-top-style: solid;
+                                border-top-width: 1px;
+                            }
+
+                            .border-b-1 {
+                                border-bottom-style: solid;
+                                border-bottom-width: 1px;
+                            }
+
+
+                            .border-primary-400 {
+                                border-color: rgba(179, 179, 179, 1);
+                            }
+
+                            .instruction-block {
+                                font-size: 12px;
+                            }
+
+                            .bg-primary-300 {
+                                background-color: rgba(204, 204, 204, 1);
+                            }
+
+                            .bg-primary-200 {
+                                background-color: rgba(230, 230, 230, 1);
+                            }
+
+                            .pagebreak {
+                                page-break-after: always !important;
+                                break-after: always !important;
+                                page-break-after: always !important;
+                                page-break-inside: avoid !important;
+                            }
+
+                            .align-top {
+                                vertical-align: top;
+                            }
+
+                            .text-primary-600 {
+                                color: rgba(128, 128, 128, 1);
+                            }
+
+                            .corp-primary {
+                                color: #000000
+                            }
+
+                            .bg-corp-primary {
+                                background-color: #000000
+                            }
+
+                            .corp-text-primary {
+                                color: #ffffff
+                            }
+
+                            .whitespace-pre-line {
+                                white-space: pre-line;
+                            }
+
+                            .uppercase {
+                                text-transform: uppercase;
+                            }
+
+                            .break-all {
+                                word-break: break-all;
+                            }
+
+                            .hide-on-print {
+                                display: none !important;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <h1>Testing Content</h1>
+                    </body>
+                </html>'
+06:24:16 (0x785c09000): BROWSER SETTINGS:
+View Width: 1024
+View Height: 1280
+Enable Javascript: 1
+Username: 
+Password: ****
+
+06:24:16 (0x785c09000): RENDER SETTINGS:
+Apply Margin to H/F: 0
+Enable Backgrounds: 1
+Emulate Screen Media: 1
+Enable Form Generation: 1
+Enable Landscape Orientation: 0
+Scale: 100
+Page Size Type: A4
+Page Width: 210
+Page Height: 297
+Page Margin Type: 3
+Margin Top: 25
+Margin Right: 25
+Margin Bottom: 25
+Margin Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0
+Autosize PPI: 96
+Title: Agency Report - for 16 December 2021
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200
+Max Footer Height: 200
+
+06:24:16 (0x78d01e000): Creating new browser
+06:24:16 (0x78d01e000): Waited for 0s to create a browser
+06:24:16 (0x785c09000): Process os_name: 'macos'
+06:24:16 (0x785c09000): gpu_mode: '0'
+06:24:16 (0x785c09000): Launching child process '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1718379636,14401149398880279281,1953648616397299426,131072 --disable-features=PaintHolding --lang=en-US --service-sandbox-type=network --no-sandbox --use-mock-keychain --mute-audio --framework-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/Users/kevinbonkewitzz/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+06:24:16 (0x785c09000): Created browser 1
+06:24:16 (0x785c09000): Processing job for content '<!DOCTYPE html>
+                <html class='p-report'>
+                    <head>
+                        <style>
+                            html.p-report {
+                                font-family: 'Arial'
+                            }
+
+                            div {
+                                font-size: 13px;
+                            }
+
+                            .grid {
+                                display: grid;
+                            }
+
+                            .grid-cols-12 {
+                                grid-template-columns: repeat(12, minmax(0, 1fr));
+                            }
+
+                            .col-span-1 {
+                                grid-column: span 1 / span 1;
+                            }
+
+                            .col-span-2 {
+                                grid-column: span 2 / span 2;
+                            }
+
+                            .col-span-10 {
+                                grid-column: span 10 / span 10;
+                            }
+
+                            .col-span-11 {
+                                grid-column: span 11 / span 11;
+                            }
+
+                            .w-7cm {
+                                width: 11cm;
+                            }
+
+                            .w-full {
+                                width: 100%;
+                            }
+
+                            .w-1/2 {
+                                width: 50%;
+                            }
+
+                            .w-2/12 {
+                                width: 16.666667%;
+                            }
+
+                            .w-3/4 {
+                                width: 75%;
+                            }
+
+                            .w-1/4 {
+                                width: 25%;
+                            }
+
+                            .w-1cm {
+                                width: 2.5cm !important;
+                            }
+                            .py-2 {
+                                padding-top: 0.5rem;
+                                padding-bottom: 0.5rem;
+                            }
+
+                            table {
+                                text-indent: 0;
+                                border-collapse: collapse;
+                                font-size: 13px;
+                            }
+    
+                            .text-right {
+                                text-align: right;
+                            }
+
+                            .relative {
+                                position: relative;
+                            }
+
+                            .absolute {
+                               position: absolute;
+                            }
+
+                            .mb-8 {
+                                margin-bottom: 2rem;
+                            }
+
+                            .text-sm {
+                                font-size: 0.875rem;
+                            }
+                            
+                            .break-word {
+                                word-break: break-word;
+                            }
+
+                            .p-0 {
+                                padding: 0px;
+                            }
+
+                            .addresees {
+                                font-size: 13px;
+                            }
+
+                            .mb-4 {
+                                margin-bottom: 1rem;
+                            }
+
+                            .float-left {
+                                float: left;
+                            }
+
+                            .float-right {
+                                float: right;
+                            }
+
+                            .clear-both {
+                                clear: both;
+                            }
+                            
+                            .p-1 {
+                                padding: 0.25rem;
+                            }
+
+                            .px-1 {
+                                padding-left: 0.25rem;
+                                padding-right: 0.25rem;
+                            }
+
+                            .px-2 {
+                                padding-left: 0.5rem;
+                                padding-right: 0.5rem;
+                            }
+
+                            .z-0 {
+                                z-index: 0;
+                            }
+
+                            .z-10 {
+                                z-index: 10;
+                            }
+
+                            .block {
+                                display: block;
+                            }
+
+                            .hidden {
+                                display: none;
+                            }
+
+                            .text-vertical {
+                                left: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 100%;
+                                transform: rotate(-90deg);
+
+                                font-size: 15px;
+                            }
+
+                            .m-auto {
+                                margin: auto;
+                            }
+
+                            .grid {
+                                display: grid;
+                            }
+
+                            .items-center {
+                                align-items: center;
+                            }
+
+                            .flex {
+                                display: flex;
+                            }
+
+                            .items-center { 
+                                align-items: center;
+                            }
+
+                            .table {
+                                display: table;
+                            }
+
+                            .table-cell {
+                                display: table-cell;
+                            }
+
+                            .-rotate-90 {
+                                transform: rotate(270deg);
+                            }
+
+                            .block {
+                                display: block;
+                            }
+                            .mb-1 {
+                                margin-bottom: 0.25rem;
+                            }
+
+                            .leading-snug {
+                                line-height: 1.375;
+                            }
+
+                            .text-left {
+                                text-align: left;
+                            }
+
+                            .text-center {
+                                text-align: center;
+                            }
+
+                            tr, .avoid-break {
+                                page-break-inside: avoid;
+                            }
+
+                            .border-t-1 {
+                                border-top-style: solid;
+                                border-top-width: 1px;
+                            }
+
+                            .border-b-1 {
+                                border-bottom-style: solid;
+                                border-bottom-width: 1px;
+                            }
+
+
+                            .border-primary-400 {
+                                border-color: rgba(179, 179, 179, 1);
+                            }
+
+                            .instruction-block {
+                                font-size: 12px;
+                            }
+
+                            .bg-primary-300 {
+                                background-color: rgba(204, 204, 204, 1);
+                            }
+
+                            .bg-primary-200 {
+                                background-color: rgba(230, 230, 230, 1);
+                            }
+
+                            .pagebreak {
+                                page-break-after: always !important;
+                                break-after: always !important;
+                                page-break-after: always !important;
+                                page-break-inside: avoid !important;
+                            }
+
+                            .align-top {
+                                vertical-align: top;
+                            }
+
+                            .text-primary-600 {
+                                color: rgba(128, 128, 128, 1);
+                            }
+
+                            .corp-primary {
+                                color: #000000
+                            }
+
+                            .bg-corp-primary {
+                                background-color: #000000
+                            }
+
+                            .corp-text-primary {
+                                color: #ffffff
+                            }
+
+                            .whitespace-pre-line {
+                                white-space: pre-line;
+                            }
+
+                            .uppercase {
+                                text-transform: uppercase;
+                            }
+
+                            .break-all {
+                                word-break: break-all;
+                            }
+
+                            .hide-on-print {
+                                display: none !important;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <h1>Testing Content</h1>
+                    </body>
+                </html>'
+06:24:16 (0x785c09000): Process os_name: 'macos'
+06:24:16 (0x785c09000): gpu_mode: '0'
+06:24:16 (0x785c09000): Launching child process '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/kevinbonkewitzz/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+06:24:16 (0x785c09000): Process os_name: 'macos'
+06:24:16 (0x785c09000): gpu_mode: '0'
+06:24:16 (0x785c09000): Launching child process '/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/IronCefSubprocess --type=renderer --framework-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/kevinbonkewitzz/DockerExample/DockerExample/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --user-data-dir=/Users/kevinbonkewitzz/Library/Application Support/CEF/User Data --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-error --ignore-ssl-errors --use-mock-keychain'
+06:24:16 (0x78879e000): Received resource request from null for https://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+06:24:16 (0x78879e000): Resolved resource request using default handler
+06:24:16 (0x78879e000): Creating resource handler for custom scheme https using url https://ironsoftwarescheme.com/ on browser 1
+06:24:16 (0x785c09000): Browser process received message: 'OnBrowserCreated'
+06:24:16 (0x785c09000): Received message from render process with values '' (0)
+06:24:16 (0x785c09000): Started loading frame 'https://ironsoftwarescheme.com/' on browser 1
+06:24:16 (0x785c09000): Browser 1 status: 
+06:24:16 (0x785c09000): Loaded frame 'https://ironsoftwarescheme.com/' on browser 1
+06:24:16 (0x785c09000): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+06:24:16 (0x785c09000): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+06:24:16 (0x785c09000): Finished dev tools method on browser 1 (message ID: 1)
+06:24:16 (0x785c09000): Sending DOM-visit process message for browser 1 (job ID: 0)
+06:24:16 (0x785c09000): Browser process received message: 'OnDomVisited'
+06:24:16 (0x785c09000): Received message from render process with values 'AQAAAGgAAAAAAAAAAgAAAEQAAAAQAAAAAAAAAAAAAAABAAAAOAAAAAEAAAANAAAAZAAAAG8AAABjAAAAdQAAAG0AAABlAAAAbgAAAHQAAAB0AAAAaQAAAHQAAABsAAAAZQAAAAEAAAAEAAAAAQAAAAAAAAA=' (156)
+06:24:16 (0x785c09000): Printing from browser to '/var/folders/dd/cm80b1sj45s4f22r8q62xtbh0000gn/T/pdfxZAqGg'
+06:24:16 (0x785c09000): Received browser print callback for path '/var/folders/dd/cm80b1sj45s4f22r8q62xtbh0000gn/T/pdfxZAqGg' (1)
+06:24:16 (0x785c09000): Print finished for browser 1(success: 1)
+06:24:16 (0x785c09000): Retrieved document title from render settings: Agency Report - for 16 December 2021
+06:24:16 (0x785c09000): Retrieve Html title: 
+06:24:16 (0x785c09000): Generating form fields
+06:24:16 (0x785c09000): Adding default font for form fields
+06:24:17 (0x785c09000): Initializing forms for page 0
+06:24:17 (0x785c09000): Retrieving document bytes
+06:24:17 (0x785c09000): Pdf document factory is generating bytes using document pointer 0x7fd3f2560db0
+06:24:17 (0x785c09000): Pdf document factory succesfully generated bytes 0x7fd3f2560db0
+06:24:17 (0x785c09000): Successfully generated 12627 bytes from Pdf document factory writer
+06:24:17 (0x785c09000): Closing browser 1
+06:24:17 (0x785c09000): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+06:24:17 (0x785c09000): Destroying browser (id:1)
+06:24:17 (0x785c09000): Finished job 0
+06:24:17 (0x785c09000): Job group finished
+06:24:17 (0x785c09000): Job group 0 finished
+06:24:17 (0x785c09000): CefProxyController::QuitMessageLoop()
+06:24:17 (0x785c09000): CefMessagePumpStd::Quit()
+06:24:17 (0x785c09000): CefMessagePumpStd::DoQuit()
+06:24:17 (0x785c09000): Retrieving 12627 bytes from job 0
